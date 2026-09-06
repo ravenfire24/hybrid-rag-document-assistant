@@ -106,42 +106,4 @@ Open the app:
 ```text
 http://localhost:3000
 ```
-## Benchmarks And Evidence
 
-Use the benchmark script when you want to support resume or portfolio claims with reproducible numbers. The app should only claim dataset scale, chunk scale, query accuracy, or load performance after these reports exist.
-
-Count the sample dataset files:
-
-```bash
-npm run benchmark:dataset -- --dataset data
-```
-
-Check the live Qdrant collection point count and indexed document count:
-
-```bash
-npm run benchmark:qdrant
-```
-
-Run a query test set against the local app:
-
-```bash
-npm run dev
-npm run benchmark:queries -- --queries benchmarks/queries.jsonl --api http://localhost:3000
-```
-
-Run a simple load test:
-
-```bash
-npm run benchmark:load -- --queries benchmarks/queries.jsonl --api http://localhost:3000 --concurrency 5 --repeats 3
-```
-
-Reports are written to the `benchmarks/` folder as JSON files. Keep the important reports privately if you want proof for claims like:
-
-- Sample dataset size, such as total files and PDF count
-- Qdrant point count, which represents stored document chunks
-- Test query count and pass/fail results
-- Load test latency, concurrency, cache hits, and error rate
-
-To run the included example queries, duplicate `benchmarks/queries.example.jsonl` to `benchmarks/queries.jsonl` and edit it for your own documents. For a 100-query validation claim, `benchmarks/queries.jsonl` should contain at least 100 real document questions and the generated report should show the actual request count and error count.
-
-Do not claim numbers such as 500 PDFs, 500,000 chunks, or 100 tested queries unless your private benchmark reports show those exact results.
