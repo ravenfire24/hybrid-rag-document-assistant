@@ -232,3 +232,6 @@ out/
 /uploads/
 /documents/
 benchmarks/*.json
+
+.vercel
+.env*

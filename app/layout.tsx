@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hybrid RAG Document Assistant",
+  title: "Document QA",
   description: "Document QA with Next.js, Qdrant Cloud, and NVIDIA NIM models."
 };
 

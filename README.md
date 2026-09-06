@@ -2,6 +2,8 @@
 
 Document QA is a full-stack RAG application for asking questions about uploaded documents. Users upload PDF, TXT, or DOCX files, the app indexes them in Qdrant Cloud, and the chatbot answers questions using only the retrieved document context.
 
+Live Demo: https://hybrid-rag-document-assistant.vercel.app
+
 ## What It Does
 
 - Upload PDF, TXT, and DOCX files
@@ -106,4 +108,3 @@ Open the app:
 ```text
 http://localhost:3000
 ```
-
