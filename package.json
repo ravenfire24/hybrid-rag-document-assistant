@@ -1,0 +1,32 @@
+{
+  "name": "hybrid-rag-document-assistant",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "benchmark:dataset": "tsx scripts/benchmark.ts dataset",
+    "benchmark:qdrant": "tsx scripts/benchmark.ts qdrant",
+    "benchmark:queries": "tsx scripts/benchmark.ts queries",
+    "benchmark:load": "tsx scripts/benchmark.ts load"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.8.0",
+    "next": "^16.0.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.0"
+  }
+}
