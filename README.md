@@ -4,6 +4,10 @@ Document QA is a full-stack RAG application for asking questions about uploaded 
 
 Live App: https://hybrid-rag-document-assistant.vercel.app
 
+
+![alt text]()
+
+
 ## What It Does
 
 - Upload PDF, TXT, and DOCX files
