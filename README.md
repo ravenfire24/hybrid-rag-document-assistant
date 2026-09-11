@@ -5,7 +5,7 @@ Document QA is a full-stack RAG application for asking questions about uploaded 
 Live App: https://hybrid-rag-document-assistant.vercel.app
 
 
-![alt text](https://github.com/ravenfire24/hybrid-rag-document-assistant/blob/main/Screenshot_20260908_221959_Samsung%20Browser.jpg)
+![alt text](https://github.com/ravenfire24/hybrid-rag-document-assistant/blob/main/RAG.JPG)
 
 
 ## What It Does
